@@ -1,6 +1,6 @@
 require "pry"
 
-def generalized_map ()
+def generalized_map (source_array)
 end
 
 
