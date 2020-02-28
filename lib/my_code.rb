@@ -13,17 +13,12 @@ end
 
 def reduce (arr, starting_point = nil)
   
-  if starting_point 
+  if !starting_point
     value = starting_point
-    i = 0
-  else 
-    value = arr[0]
-    i = 1 
   end 
   
-  while i < arr.count do 
-    value = yield(value, arr[i])
-    i += 1 
+  arr.each do |x|
+    value = yield(value, x)
   end 
   value
 end 
