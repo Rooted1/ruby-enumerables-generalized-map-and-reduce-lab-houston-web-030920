@@ -12,7 +12,7 @@ end
 
 
 def reduce (arr, starting_point = 0)
-  
+  value = starting_point
   if starting_point != 0
     value = starting_point
   else 
