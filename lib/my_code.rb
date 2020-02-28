@@ -16,12 +16,13 @@ def reduce (arr, starting_point = 0)
   
   if !starting_point 
     value = starting_point
+    i = 0
   else 
-    value = true
+    value = arr[0]
+    i = 1 
   end 
   
-  arr.each do |x|
-    value = yield(value, x)
+  while i < arr.count do 
+    
   end 
-  value
 end 
