@@ -15,6 +15,6 @@ def reduce (arr)
   value = 0 
   
   arr.each do |x|
-    value += x
+    value = x
   end 
 end 
