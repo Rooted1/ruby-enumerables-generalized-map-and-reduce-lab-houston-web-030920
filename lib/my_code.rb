@@ -3,13 +3,9 @@ require "pry"
 def map (arr)
   new_arr = []
   
-  arr.each do ||
-    
+  arr.each do |i|
+   new_arr << yield(i)
   end 
-  yield(new_arr)
   
   new_arr
 end
-
-
-# map(source_array) { |i| i * -1}
