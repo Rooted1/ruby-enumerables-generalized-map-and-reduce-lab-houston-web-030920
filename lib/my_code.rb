@@ -23,6 +23,7 @@ def reduce (arr, starting_point = 0)
   end 
   
   while i < arr.count do 
-    
+    value = yield(value, x)
+    i += 1 
   end 
 end 
