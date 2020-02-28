@@ -11,8 +11,8 @@ def map (arr)
 end
 
 
-def reduce (arr, starting_point = 0)
-  value = starting_point
+def reduce (arr, starting_point = nil)
+  value = 0
   
   if starting_point
     value = starting_point
