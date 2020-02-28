@@ -13,10 +13,8 @@ end
 
 def reduce (arr, starting_point = nil)
   
-  if starting_point
+  if !starting_point
     value = starting_point
-  else 
-    value = arr[0]
   end 
   
   arr.each do |x|
