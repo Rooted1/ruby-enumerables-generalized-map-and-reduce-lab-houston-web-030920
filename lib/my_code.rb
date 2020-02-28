@@ -1,5 +1,8 @@
 require "pry"
 
-def generalized_map(source_array )
+def generalized_map ()
+end
+
+def map(source_array )
   binding.pry
 end
