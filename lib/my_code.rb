@@ -16,6 +16,8 @@ def reduce (arr, starting_point = 0)
   
   if !starting_point 
     value = starting_point
+  else 
+    value = true
   end 
   
   arr.each do |x|
