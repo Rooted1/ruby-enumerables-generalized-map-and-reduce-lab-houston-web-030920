@@ -1,5 +1,5 @@
 require "pry"
 
-def map()
+def map(source_array)
   binding.pry
 end
