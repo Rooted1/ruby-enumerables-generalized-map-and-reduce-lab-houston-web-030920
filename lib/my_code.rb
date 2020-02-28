@@ -12,8 +12,8 @@ end
 
 
 def reduce (arr, starting_point = nil)
-  value = 0 
-  if !starting_point
+  
+  if starting_point
     value = starting_point
   end 
   
