@@ -15,6 +15,7 @@ def reduce (arr, starting_point = 0)
   value = starting_point 
   
   arr.each do |x|
-    yield(value, x)
+    value = yield(value, x)
   end 
+  value
 end 
