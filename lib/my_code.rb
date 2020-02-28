@@ -9,3 +9,12 @@ def map (arr)
   
   new_arr
 end
+
+
+def reduce (arr)
+  value = 0 
+  
+  arr.each do |x|
+    value += x
+  end 
+end 
