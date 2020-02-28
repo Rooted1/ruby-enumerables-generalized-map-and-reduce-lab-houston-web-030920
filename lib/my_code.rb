@@ -8,4 +8,4 @@ def map (arr)
 end
 
 
-map(source_array) { |i| i * -1}
+# map(source_array) { |i| i * -1}
