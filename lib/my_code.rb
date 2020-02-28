@@ -18,7 +18,7 @@ def reduce (arr, starting_point = 0)
     value = starting_point
   else 
     value = arr[0]
-    arr.shift
+    arr.delete(arr[0])
   end 
   
   arr.each do |x|
