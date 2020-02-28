@@ -25,4 +25,5 @@ def reduce (arr, starting_point = 0)
     value = yield(value, arr[i])
     i += 1 
   end 
+  value
 end 
