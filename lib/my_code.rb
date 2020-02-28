@@ -1,6 +1,6 @@
 require "pry"
 
-def map (source_array)
+def map (arr)
   new_arr = []
   
   yield(new_arr)
